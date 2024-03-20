@@ -55,12 +55,12 @@ const Dashboard = () => {
       width="100%"
       height="100%"
       display="grid"
-      gap="1.5rem"
+      gap="1rem"
       sx={
         isAboveMediumScreens
           ? {
               gridTemplateColumns: "repeat(3, minmax(370px, 1fr))",
-              gridTemplateRows: "repeat(10, minmax(60px, 1fr))",
+              gridTemplateRows: "repeat(10, minmax(75px, 1fr))",
               gridTemplateAreas: gridTemplateLargeScreens,
             }
           : {

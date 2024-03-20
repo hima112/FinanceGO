@@ -1,4 +1,7 @@
 {
+    "scripts": {
+      "start": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\""
+  },
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
